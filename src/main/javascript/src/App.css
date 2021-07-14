@@ -1,0 +1,25 @@
+.App {
+    margin-top: 50px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.App > ul {
+    list-style: none;
+}
+
+.DataTable {
+    margin: 20px 0;
+}
+
+
+.displayTab {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
