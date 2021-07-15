@@ -18,7 +18,7 @@ public class Customer {
 	@Column(name = "lastName", nullable = false)
 	private String lastName;
 
-	@Column(name = "email", unique = true, nullable = false)
+	@Column(name = "email", nullable = false)
 	private String email;
 
 	public Date getRegistrationDate() {
